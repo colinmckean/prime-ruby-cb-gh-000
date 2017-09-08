@@ -2,5 +2,11 @@
 def prime?(number)
   sqaures = []
  (2...number).each { |num| sqaures << num*num }
- sqaures.find{ |one| number / one}
+  if  number % x == 0  
+    return false
+   end
+  end
+
+  true
+ end
 end
