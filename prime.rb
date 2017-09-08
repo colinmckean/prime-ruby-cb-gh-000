@@ -3,7 +3,7 @@ def prime?(number)
   return false if number == 0
   return false if number == 1
   squares = []
- (1..number).each { |num| squares << num*num }
+ (2..number).each { |num| squares << num*num }
  squares.each do |x|
    if number % x == 0 && number != x
      puts "#{x} #{number}"
