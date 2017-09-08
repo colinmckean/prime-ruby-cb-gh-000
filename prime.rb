@@ -9,8 +9,9 @@ def prime?(number)
      puts "#{x} #{number}"
      return false
    end
+    puts "#{x} #{number}"
  end
- puts "#{x} #{number}"
+
  true
 end
 
