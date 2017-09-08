@@ -12,3 +12,6 @@ def prime?(number)
  end
  true
 end
+
+
+prime(1763)
