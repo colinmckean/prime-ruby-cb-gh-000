@@ -2,5 +2,5 @@
 def prime?(number)
   sqaures = []
  (0...number).each { |num| sqaures << num*num }
- return squares
+ return sqaures
 end
