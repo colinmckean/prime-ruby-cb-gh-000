@@ -5,13 +5,8 @@ def prime?(number)
   buchOfNums = (2..number)
  buchOfNums.each do |x|
    if number % x == 0 && number != x
-     puts "#{x} #{number}"
      return false
    end
-    puts "#{x} #{number}"
  end
  true
 end
-
-
-prime?(1763)
