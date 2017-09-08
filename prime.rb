@@ -4,6 +4,7 @@ def prime?(number)
  (1..number).each { |num| squares << num*num }
  squares.each do |x|
    if number % x == 0 && number != x
+     puts "#{x} #{number}"
      return true
    end
  end
