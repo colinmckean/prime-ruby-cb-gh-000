@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  return true if number == 0
+  return false if number == 0
   squares = []
  (2..number).each { |num| squares << num*num }
  squares.each do |x|
