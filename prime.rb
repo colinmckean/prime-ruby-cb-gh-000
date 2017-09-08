@@ -1,4 +1,5 @@
 # Add  code here!
 def prime?(number)
- (0...number).each { |num| number*num }
+  sqaures = []
+ (0...number).each { |num| squares << number*num }
 end
