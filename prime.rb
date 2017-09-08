@@ -10,6 +10,7 @@ def prime?(number)
      return false
    end
  end
+ puts "#{x} #{number}"
  true
 end
 
