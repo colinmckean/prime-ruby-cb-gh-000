@@ -5,8 +5,8 @@ def prime?(number)
  squares.each do |x|
    if number % x == 0 && number != x
      puts "#{x} #{number}"
-     return true
+     return false
    end
  end
- false
+ true
 end
