@@ -5,7 +5,7 @@ def prime?(number)
   squares = []
   buchOfNums = (2..number)
   buchOfNums.each { |num| squares << num*num }
- squares.each do |x|
+ buchOfNums.each do |x|
    if number % x == 0 && number != x
      puts "#{x} #{number}"
      return false
